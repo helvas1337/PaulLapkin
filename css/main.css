@@ -1,0 +1,263 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+h1 h2 h3 h4 h5 h6 {
+    font-weight: 900px;
+    text-transform: uppercase;
+}
+h1 {
+    color: #fff;
+    letter-spacing: 0.23em;
+    font-size: 65px;
+    width: 630px;
+    border-top: 3px solid #9bb4be;
+    border-bottom: 3px solid #9bb4be;
+    padding: 14px;
+    margin: 0 auto;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: url(../img/bg.jpg) no-repeat;
+    padding-top: 100px;
+    padding-bottom: 425px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 280px;
+}
+.mail {
+    text-decoration: none;
+    color: #fff;
+}
+.offer {
+    text-align: center;
+}
+.offer p {
+    color: #cad3d8;
+    font-size: 25px;
+}
+.about .container {
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    padding-top: 110px;
+}
+.man {
+    width: 430px;
+    height: 583px;
+    background: url(../img/man.jpg);
+}
+.text {
+    width: 660px;
+    padding-top: 50px;
+}
+.text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #737373;
+    text-transform: none;
+    margin-bottom: 33px;
+}
+.text p {
+    color: #8b8b8b;
+    font-size: 16px;
+    line-height: 1.66em;
+}
+.btn {
+    background: #ff2b4a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 0;
+    text-align: center;
+    display: block;
+    width: 202px;
+    margin-top: 50px;
+}
+.process {
+    padding-top: 118px;
+    background: #f6f6f6;
+    padding-bottom: 120px;
+}
+.heading {
+    text-align: center;
+}
+.heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.heading p {
+    color: #6f6f6f;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+.steps li {
+    width: 282px;
+    height: 272px;
+    background: #10c6fc;
+    color: #fff;
+}
+.steps li:nth-child(2) {
+    background: #835aeb;
+}
+.steps li:nth-child(3) {
+    background: #002453;
+}
+.steps li:nth-child(4) {
+    background: #ff2b4a;
+}
+.steps li div {
+    text-align: center;
+    margin-top: 100px;
+}
+.work {
+    padding-top: 120px;
+}
+.title {
+    text-align: center;
+}
+.title h3 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.title p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.item li {
+    width: 282px;
+    height: 272px;
+    background: #10c6fc;
+    color: #fff;
+}
+.item li:nth-child(2) {
+    background: #835aeb;
+}
+.item li:nth-child(3) {
+    background: #002453;
+}
+.item li:nth-child(4) {
+    background: #ff2b4a;
+}
+.points {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.points li {
+    width: 580px;
+    height: 272px;
+    background: #835aeb;
+    color: #fff;
+}
+.points li:nth-child(2) {
+    background: #002453;
+    width: 282px;
+    height: 272px;
+}
+.points li:nth-child(3) {
+    background: #ff2b4a;
+    width: 282px;
+    height: 272px;
+}
+.work {
+    padding-bottom: 117px;
+}
+.footer {
+    background: #222;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+}
+.socials a {
+    color: #9c9c9c;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.socials a:hover {
+    color: #ff2b4a;
+}
+.footer p {
+    color: #9c9c9c;
+    text-align: center;
+    margin-right: 25px;
+    font-size: 12px;
+}
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .man {
+        display: none;
+    }
+    .about {
+        padding-top: 40px;
+        padding-bottom: 110px;
+    }
+    .text {
+        width: auto;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        width: auto;
+        padding: 10px;
+        min-width: 290px;
+    }
+    h1 {
+        width: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .steps {
+        flex-direction: column;
+    }
+    .steps li {
+        margin: 0 auto 20px;
+    }
+    .item {
+        flex-direction: column;
+    }
+    .item li {
+        margin: 0 auto 20px;
+    }
+    .points {
+        flex-direction: column;
+    }
+    .points li {
+        margin: 0 auto 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 42px;
+    }
+}
